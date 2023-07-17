@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+
+       
+    
+</head>
+<body>
+  <table id="design">
+    <tr>
+        <td id="wrapper" style="padding:20px 20px 40px">
+            <table id="content" cellSpacing="0" cellPadding="0" border="0" align="center" width="620"><tr><td  align="center" style="padding:20px 0 40px">
+              
+            </td>
+        </tr>
+        
+        <tr>
+            <td >
+                <table cellSpacing="0" cellPadding="0" border="0" align="center">
+                    <tr>
+                        <td>
+                           
+    
+    <script src="game.js"></script>
+    <p id="heading">15 puzzle</p>
+
+  
+  
+    
+    <div id="puzzleContainer">
+        <button class="gbutton" onclick=shuffle()>New game</button>
+        <p id="moveCount">Moves:0</p>
+        <div id="stopwatch">00:00</div>
+        
+<table id="myTable">
+ 
+        <tr id="row1">
+        <td id="block11"  class="slice slice1" onclick="clickSlice(1,1)"></td>
+        <td id="block12" class="slice slice2" onclick="clickSlice(1,2)"></td>
+        <td id="block13" class="slice slice3" onclick="clickSlice(1,3)"></td>
+        <td id="block14" class="slice slice4" onclick="clickSlice(1,4)"></td>
+        </tr>
+         
+        <tr id="row2">
+        <td id="block21" class="slice slice5" onclick="clickSlice(2,1)"></td>
+        <td id="block22" class="slice slice6" onclick="clickSlice(2,2)"></td>
+        <td id="block23" class="slice slice7" onclick="clickSlice(2,3)"></td>
+        <td id="block24" class="slice slice8" onclick="clickSlice(2,4)"></td>
+        </tr>
+            
+        <tr id="row3">
+        <td id="block31" class="slice slice9" onclick="clickSlice(3,1)"></td>
+        <td id="block32" class="slice slice10" onclick="clickSlice(3,2)"></td>
+        <td id="block33" class="slice slice11" onclick="clickSlice(3,3)"></td>
+        <td id="block34" class="slice slice12" onclick="clickSlice(3,4)"></td>
+        </tr>
+            
+        <tr id="row4">
+        <td id="block41" class="slice slice13" onclick="clickSlice(4,1)"></td>
+        <td id="block42" class="slice slice14" onclick="clickSlice(4,2)"></td>
+        <td id="block43" class="slice slice15" onclick="clickSlice(4,3)"></td>
+        <td id="block44" class="slice slice16" onclick="clickSlice(4,4)"></td>
+        </tr>
+
+       
+             </table>
+             <button id="pause" onclick="stopStopwatch()">Pause</button>
+             <p id="flex">This game is re-created by Sassy</p>
+         
+</div>
+ 
+ 
+ 
+   
+
+</body>
+</html>
